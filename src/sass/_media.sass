@@ -1,0 +1,252 @@
+@media (max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 50px
+		&_subheader
+			font-size: 35px
+	.advantages
+		&_item
+			align-items: flex-start
+		&_discr
+			width: 300px
+	.mobile
+		&_item
+			width: 300px
+	.footer
+		&_mobile
+			flex-direction: column
+			align-items: flex-end
+	.car
+		padding: 55px 0
+		min-height: 840px
+
+@media (max-width: 991px)
+	.menu
+		&_item
+			padding-right: 8px
+		&_link
+			font-size: 10px
+	.subheader
+		&_logo
+			img
+				width: 100%
+		&_official
+			font-size: 11px
+		&_phone
+			font-size: 18px
+		&_btn
+			margin-top: 21px
+			width: 100%
+			height: 40px
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 30px
+	.advantages
+		&_item
+			flex-direction: column
+			align-items: center
+		&_discr
+			width: 300px
+			margin-top: 20px
+		.shell
+			margin-right: 0
+	.car
+		min-height: 800px
+		&_img 
+			width: 100%
+	.world
+		min-height: 650px
+	.footer
+		&_mobile
+			flex-direction: column
+			justify-content: space-between
+			align-items: flex-end
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100%
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .8)
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 22px
+	.hamburger
+		display: block
+		position: absolute
+	.xs-hidden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_phone
+			display: block
+			margin-top: 10px
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+			color: #ffffff
+			text-align: center
+		&_btn
+			display: block
+			margin: 0 auto
+			margin-top: 10px
+			width: 200px
+			height: 40px
+	.promo
+		&_header
+			font-size: 40px
+			line-height: 45px
+	.car
+		min-height: 600px
+		padding: 40px 0
+	.world 
+		min-height: 450px
+	.footer
+		&_wrapper > div
+			width: auto
+		&_social
+			width: 72px
+			flex-flow: wrap
+			&_item
+				&:nth-child(3)
+					margin-top: 2px
+				&:nth-child(4)
+					margin-top: 2px
+
+@media (max-width: 575px)
+	nav
+		height: 30px
+	.subheader
+		height: 60px
+		top: 30px
+		&_official
+			display: none
+		&_logo
+			margin-top: 16px
+		&_phone
+			margin-top: 11px
+			font-size: 12px
+			font-weight: 400
+		&_btn
+			width: 116px
+			height: 28px
+			font-size: 10px
+			margin-top: 6px
+	.promo
+		margin-top: -20px
+		min-height: 400px
+		padding: 113px 0 35px 0
+		&_descr
+			display: none
+		&_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 35px
+		&_subheader
+			font-size: 20px
+			margin-top: 33px
+			padding: 0 10px
+			line-height: 30px
+		&_btn
+			width: 216px
+			height: 56px
+			margin-top: 72px
+	.menu
+		width: 85%
+		&_item
+			width: 100%
+			text-align: center
+		&_link
+			display: block
+	.advantages
+		padding: 22px 0 36px 0
+		&_item
+			margin-top: 26px
+		.shell
+			width: 100px
+			height: 100px
+		&_discr
+			width: 100%
+			margin-top: 27px
+			span
+				font-size: 16px
+	.title
+		font-size: 16px
+		margin-top: 15px
+		line-height: 16px
+	.footer
+		&_divider
+			width: 253px
+			margin: 0 auto
+		&_wrapper > div
+			flex-flow: wrap
+			&:nth-child(1)
+				order: 2
+			&:nth-child(2)
+				order: 1
+			&:nth-child(3)
+				order: 3
+		&_wrapper
+			flex-direction: column
+			align-items: center
+		&_mobile
+			flex-direction: row
+			margin-top: 10px
+		&_links
+			width: 290px
+			&_main 
+				padding: 0
+				font-size: 14px
+			&_sub 
+				flex-wrap: wrap
+				justify-content: center
+				a 
+					margin: 0 7px
+			&_lang 
+				margin-top: 10px
+		&_social
+			width: 153px
+			margin-top: 10px
+			flex-wrap: nowrap
+	.mobile
+		&_item
+			width: 250px
+	.car
+		padding: 25px 0 33px 0
+		min-height: 390px
+		background: #000
+		&_img 
+			margin-top: 35px
+		&_discr 
+			margin-top: 23px
+			color: #ffffff
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+	.world
+		min-height: 360px
+		padding: 25px 0 30px 0
+		&_link 
+			display: block
+			bottom: 30px
+			line-height: 15px
